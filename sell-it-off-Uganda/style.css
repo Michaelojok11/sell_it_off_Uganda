@@ -57,8 +57,49 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
+  padding: 20px 18px;
+  background-color: #E3E6F3;
+  /* box shadow underneath */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
 
+/* navbar */
+#navbar{
+  display: flex;
+}
+
+/* list items */
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  /* Added to bring out the underline element */
+  position: relative;
+}
+
+/* anchor tags */
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #141414;
+  transition: 0.3s ease;
+}
+#navbar li a:hover,
+/* make the link active */
+#navbar li a.active {
+  color: rgb(81, 150, 172);  
+}
+/* Underline */
+#navbar li a.active::after,
+#navbar li a:hover::after{
+  content: "";
+  /* when using after the followings should be considered */
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
 }
 
 
