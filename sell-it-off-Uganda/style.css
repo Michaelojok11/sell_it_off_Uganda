@@ -62,6 +62,19 @@ button.normal {
   transition: 0.2s;
 }
 
+/* white button */
+button.white {
+  font-size: 13px ;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+}
+
 body {
   width: 100%;
 }
@@ -338,6 +351,10 @@ body {
   padding: 30px;
 }
 
+#sm-banner .banner-box2{
+  background-image: url(img/banner/b10.jpg);
+}
+
 #sm-banner {
   display: flex;
   justify-content: space-between;
@@ -359,6 +376,11 @@ body {
   font-size: 14px;
   font-weight: 500;
   padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+  background-color: #088170;
+  border: 1px solid #088170;
 }
 
 
