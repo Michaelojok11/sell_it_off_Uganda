@@ -355,6 +355,8 @@ body {
   background-image: url(img/banner/b10.jpg);
 }
 
+
+
 #sm-banner {
   display: flex;
   justify-content: space-between;
@@ -382,6 +384,65 @@ body {
   background-color: #088170;
   border: 1px solid #088170;
 }
+
+/* banner 3 */
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 60px;
+
+
+}
+
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(img/banner/b7.jpg);
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+#banner3 .banner-box2{
+  background-image: url(img/banner/b4.jpg);
+}
+
+#banner3 .banner-box3{
+  background-image: url(img/banner/b18.jpg);
+}
+
+
+#banner3 h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#banner3 h3 {
+  color: rgb(207, 36, 36);
+  font-weight: 800;
+  font-size: 15px;
+}
+/* newsletter */
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(img/banner/b14.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+
+
+
+
 
 
 
