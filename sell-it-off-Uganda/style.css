@@ -141,6 +141,10 @@ body {
   display: none;
   align-items: center;
 }
+
+#close {
+  display: none;
+}
 /* End of the header / nav bar */
 
 
@@ -599,6 +603,10 @@ footer .copyright{
   left: 30px;
   color: #222;
   font-size: 24px;
+}
+
+#lg-bag{
+  display: none;
 }
   
 }
