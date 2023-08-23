@@ -662,14 +662,15 @@ footer .copyright{
 
 
 /* media query for making the websites responsive */
+
+/* Medium devices */
+
 @media (max-width: 799px ) {
 .section-p1{
   padding: 40px 40px;
 }
 
-
-
-  #navbar {
+#navbar {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -768,6 +769,10 @@ margin: 15px 15px;
 }
 }
 
+/* End of medium devices */
+
+
+
 /* for smaller devices */
 
 @media(max-width: 477px){
@@ -775,7 +780,6 @@ margin: 15px 15px;
 .section-p1 {
   padding: 20px;
 }
-
 
 #header {
     padding: 10px 30px;
@@ -804,8 +808,8 @@ margin: 15px 15px;
 
 #product1 .pro {
   width: 100%;
-
 }
+
 #banner {
   height: 40vh;
 }
@@ -826,6 +830,8 @@ margin: 15px 15px;
   margin-bottom: 15px;
 }
 
+/* newsletter */
+
 #newsletter .form {
   width: 100%;
 }
@@ -836,6 +842,7 @@ margin: 15px 15px;
 footer .copyright {
  text-align: start;
 }
+/* End of newsletter */
 
 /* single page */
 #prodetails {
@@ -848,6 +855,10 @@ footer .copyright {
   margin-right: 0px;
 }
 
+#prodetails .single-pro-details {
+  width: 100%;
+}
+/* End of single product page */
 }
 
 
