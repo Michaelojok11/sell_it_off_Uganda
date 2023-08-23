@@ -757,6 +757,10 @@ footer .copyright {
   text-align: center;
 }
 
+#pagination a {
+  text-decoration: none;
+}
+
 
 
 
