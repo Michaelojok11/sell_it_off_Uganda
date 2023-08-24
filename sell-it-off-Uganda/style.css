@@ -943,7 +943,7 @@ footer .copyright {
 /* blog page */
 
 #blog {
-  padding: 10px 10px 10px 10px;
+  padding: 100px 15px 5px 15px;
 }
 
 #blog .blog-box {
@@ -955,9 +955,13 @@ footer .copyright {
 #blog .blog-img {
   width: 100%;
   margin-right: 0px;
+  margin-bottom: 25px; 
+
 }
 
-
+#blog .blog-details {
+  width: 100%;
+}
 
 }
 
