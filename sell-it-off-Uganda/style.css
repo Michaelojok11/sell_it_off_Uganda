@@ -368,8 +368,6 @@ body {
   background-image: url(img/banner/b10.jpg);
 }
 
-
-
 #sm-banner {
   display: flex;
   justify-content: space-between;
@@ -386,6 +384,7 @@ body {
   font-size: 28px;
   font-weight: 800;
 }
+
 #sm-banner span {
   color: white;
   font-size: 14px;
@@ -404,8 +403,6 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 60px;
-
-
 }
 
 #banner3 .banner-box {
@@ -562,7 +559,7 @@ footer .copyright{
 
 
 /* Shop Page */
-#page-header{
+#page-header {
   background-image: url(img/banner/b1.jpg);
   height: 40vh;
   width: 100%;
@@ -596,7 +593,6 @@ footer .copyright{
   font-size: 16px;
   font-weight: 600;
 }
-
 
 #prodetails {
   display: flex;
@@ -657,6 +653,19 @@ footer .copyright{
  #prodetails .single-pro-details p {
   line-height: 23px;
  }
+
+ /* Blog page */
+ 
+ #page-header.blog-header {
+  background-image: url("img/banner/b19.jpg");
+ }
+
+
+
+
+
+
+
 
 
 
@@ -754,7 +763,6 @@ margin: 15px 15px;
   padding: 30px;
   margin-bottom: 10px;
 }
-
 
 #banner3 {
   padding: 0 40px;
