@@ -1,18 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <title>Sell_it_off_Uganda</title>
 
+        <!-- Adding font awesome in the code-->
+        <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+        <!--  -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <!-- navigation bar / header section-->
+        <section id="header">
+            <!-- logo -->
+            <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
 
+            <!-- Nav links -->
+            <div>
+                <!-- Navbar -->
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  href="shop.html">Shop</a></li>
+                    <li><a  href="blog.html">Blog</a></li>
+                    <li><a class="active" href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                    <!-- adding the icon -->
+                    <li id="lg-bag"><a href="cart.html">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a></li>
+
+                    <!-- closing button -->
+                <a href="#" id="close"> <i class="fas fa-times"> </i> </a>
+                </ul>
+            </div>
+
+            <!--  -->
+            <div id="mobile">
+                <a href="cart.html">
+                    <i class="fas fa-shopping-bag"></i>
+                </a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+
+
+
+            <!-- End of navlinks -->
+        </section>
+        <!-- End of the header section -->
+
+     <!-- Hero section -->
+     <!-- start of the hero section -->
+     <section id="page-header" class="about-header">        
+        <h2> #Know Us </h2>     
+        <p> We are here for all your clothings and products </p>  
+     </section>
+     <!-- End of hero section -->
+
+     <!-- about header -->
+     <section id="about-head" class="section-p1">
+        <img src="img/about/a6.jpg" alt="">
+        <div>
+            <h2>Who We Are</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo 
+                id magna congue fermentum. Fusce varius, tortor eu fringilla accumsan, 
+                odio odio tincidunt lectus, vel varius elit lorem sit amet dolor. Sed 
+                id nisl eu purus congue viverra. Nunc nec lacus sed justo suscipit convallis. 
+                Nulla facilisi. Suspendisse potenti. Suspendisse eu ex vitae nunc condimentum 
+                laoreet. Integer id congue libero. Vivamus in purus eu erat sollicitudin facilisis.
+            </p>
+            <abbr title=""> Create stunning images with as much or as little control as you like 
+                thanks to a choice of Basic and creative modes </abbr>
+
+                <br> <br>
+                <!-- How to create a sliding text -->
+                <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%" > Create stunning images with as much or as little control as you 
+                    like thanks to a choice of basic and creative modes </marquee>
+        
+            </div>
+     </section>
+     <!-- End of about head -->
+
+     <!-- video section -->
+     <section id="about-app" class="section-p1">
+        <h1>Download Our <a href="#">App</a></h1>
+        <div class="video">
+            <video autoplay muted loop src="img/about/1.mp4"></video>
+        </div>
+    </section>
+     <!-- End of video section -->
+
+     <!--  Feature -->
+     <section id="feature" class="section-p1">
+        <!-- free shipping -->
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt="">
+            <h6> Free shipping </h6> 
+        </div>
+
+         <!-- Online order -->
+         <div class="fe-box">
+            <img src="img/features/f2.png" alt="">
+            <h6> Online Order</h6> 
+        </div>
+
+         <!-- Save money -->
+         <div class="fe-box">
+            <img src="img/features/f3.png" alt="">
+            <h6> Save money </h6> 
+        </div>
+
+         <!-- promotions -->
+         <div class="fe-box">
+            <img src="img/features/f4.png" alt="">
+            <h6> Promotions </h6> 
+        </div>
+
+         <!-- Happy sell -->
+         <div class="fe-box">
+            <img src="img/features/f5.png" alt="">
+            <h6> Happy sell </h6> 
+        </div>
+
+         <!-- Support -->
+         <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6> Support </h6> 
+        </div>
+     </section>
+     <!-- End of feature -->
+
+     <!-- Newsletter -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span> special offers.</span>  </p>
+            
+        </div>
+        <!-- form -->
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal"> Sign up </button>
+        </div>
+    </section>
+    <!-- End of newsletter -->
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <!-- column 1 -->
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4> Contact  </h4>
+            <p><strong>Address: </strong> Hedåkersvägen 7, 217 64 Malmö </p>
+            <p><strong>Phone: </strong> +46729455878 / +(46) 706 367 278  </p>
+            <p><strong>Hours: </strong> 09:00 - 18:00, Mon-Sat </p>
+            <!-- social media links -->
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <!-- End of column 1 -->
+
+        <!-- column 2 -->
+        <div class="col">
+            <h4> About </h4>
+            <a href="#"> About Us</a>
+            <a href="#"> Delivery Information </a>
+            <a href="#"> Privacy Policy</a>
+            <a href="#"> Terms and conditions </a>
+            <a href="#"> Contact us </a>
+        </div>
+        <!-- End of column 2 -->
+
+        <!-- column 3 -->
+        <div class="col">
+            <h4> My Account </h4>
+            <a href="#"> Sign In </a>
+            <a href="#"> View Cart </a>
+            <a href="#"> My Wishlist </a>
+            <a href="#"> My Order </a>
+            <a href="#"> Help </a>
+        </div>
+        <!-- End of column 3 -->
+
+        <!-- column 4 -->
+        <div class="col install">
+            <h4>Install App</h4>
+            <p> From App Store and Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p> Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>     
+        <!-- End of column 4 -->
+        <div class="copyright">
+            <p> &copy; 2023, rights@sell-it-off-Uganda website</p> 
+        </div> 
+                 
+    </footer>
+    <!-- End of footer -->
+
+        <!-- javascript -->
         <script src="script.js"></script>
     </body>
 
