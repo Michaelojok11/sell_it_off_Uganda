@@ -878,6 +878,10 @@ footer .copyright{
 }
 
 /* cart page */
+#cart{
+  overflow-x: auto;
+}
+
 #cart table {
   width: 100%;
   border-collapse: collapse;
@@ -950,7 +954,8 @@ footer .copyright{
 }
 
 
-#coupon h3 {
+#coupon h3,
+#subtotal h3 {
   padding-bottom: 15px;
 
 }
@@ -963,7 +968,8 @@ footer .copyright{
   border: 1px solid #e2e9e1;
 }
 
-#coupon button {
+#coupon button,
+#subtotal button {
   background-color: #088178;
   padding: 12px 20px;
   color: white;
@@ -1267,6 +1273,19 @@ footer .copyright {
   margin-bottom: 30px;
 }
 /* End of contact page */
+
+/* cart page */
+#cart-add {
+  flex-direction: column;
+}
+#coupon {
+  width: 100%;
+}
+
+#subtotal {
+  width: 100%;
+  padding: 20px;
+}
 
 }
 
